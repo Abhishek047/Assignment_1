@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Assignment</title>
+</head>
+<body>
+    <header >
+        <div class="head container">
+            <div class="nav">
+                <div class="logo"><img src="img/logo.png" alt=""></div>
+                <div class="menu">
+                    <ul>
+                        <li class="active">
+                            <a href="#" class="item-flight">Flights</a>
+                        </li>
+                        <li>
+                            <a href="#" class="item-hotel">Hotels</a>
+                        </li>
+                        <li>
+                            <a href="#" class="item-activities">Activities</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="info-header">
+                <p>24/7 Custtomer Support</p>
+                <p id="num">1-800-5xx-xxx</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="form-section">
+        <div class="heading">
+            <h1>Affordable Flight Details</h1>
+            <h4>We help you to find our best prices</h4>
+        </div>
+        <div class="main-form container">
+            <h3 class="info">
+                Book Flights, Hotels & Activities
+            </h3>
+            <div class="choice">
+                <button class="active-button">Flights</button>
+                <button>Hotels</button>
+                <button>Activities</button>
+            </div>
+            <form action="#" class="flights">
+                <div class="journey-type">
+                    <input type="radio" name="choice-flights" id="round-trip">  Round-trip
+                    <input type="radio" name="choice-flights" id="one-way">   One-way
+                </div>
+                <div class="location">
+                    <div class="dept">
+                        <label for="depart">Depart From</label>
+                        <br>
+                        <input type="text" onfocus="this.placeholder = ''" name="depart" id="text-org" onblur="this.placeholder ='Origin City/Airport'" placeholder="Origin City/Airport" >
+                    </div>
+                    <div class="dest">
+                        <label for="destination">Destination From</label>
+                        <br>
+                        <input type="text" name="destination" id="text-dest" onfocus="this.placeholder = ''" onblur="this.placeholder ='Destination City/Airport'"placeholder="Destination City/Airport">
+                    </div>
+                </div>
+                <div class="time">
+                    <div class="dept-date">
+                        <label for="depart-date">Depart-Date</label><br>
+                        <input type="date" name="depart-date" id="">    
+                    </div>
+                    <div class="dest-date">
+                    <label for="destionation-date">Destination-Date</label><br>
+                    <input type="date" name="destination-date" id="">
+                    </div>
+                </div>
+                <div class="passenger">
+                    <p>Traveler(s)</p>
+                    <div class="counter">
+                        <div class="pass">
+                            <p>Adult</p>
+                            <div class="number">
+                                <span class="minus">-</span>
+                                <input type="text" value="1"/>
+                                <span class="plus">+</span>
+                            </div>
+                        </div>
+                        <div class="pass">
+                            <p>Adult</p>
+                            <div class="number">
+                                <span class="minus">-</span>
+                                <input type="text" value="1"/>
+                                <span class="plus">+</span>
+                            </div>
+                        </div>
+                        <div class="pass">
+                            <p>Adult</p>
+                            <div class="number">
+                                <span class="minus">-</span>
+                                <input type="text" value="1"/>
+                                <span class="plus">+</span>
+                            </div>
+                        </div>
+                        <div class="pass">
+                            <p>Adult</p>
+                            <div class="number">
+                                <span class="minus">-</span>
+                                <input type="text" value="1"/>
+                                <span class="plus">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="add-info">
+                    <div class="type">
+                        <label for="type">Class</label>
+                    <select name="type">
+                        <option value="Economy">Economy</option>
+                        <option value="Business">Business</option>
+                        <option value="First-Class">First-Class</option>
+                    </select>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" name="direct-f" id="direct-f"> Direct flight
+                    </div>
+                </div>
+                <button type="submit" class="sub">SEARCH FLIGHTS ></button>
+            </form>
+        </div>  
+    </section>
+
+
+    <section class="section-information">
+        <div class="information container">
+            <div class="item">
+                <a href="#">
+                    <img src="img/icons8-price-tag-64.png" alt="">
+                    <p>
+                        Amazing Flight Deals
+                    </p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img src="img/icons8-price-tag-64.png" alt="">
+                    <p>
+                        Details
+                    </p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img src="img/icons8-price-tag-64.png" alt="">
+                    <p>
+                        Details
+                    </p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img src="img/icons8-price-tag-64.png" alt="">
+                    <p>
+                        Details
+                    </p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img src="img/icons8-price-tag-64.png" alt="">
+                    <p>
+                        Details
+                    </p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-subscribe">
+        <div class="subscribe">
+            <p>
+                <span class="get">GET</span>
+                <span>SECRET DEALS</span>
+            </p>
+            <form action="#">
+                <input type="text" name="" id="field" placeholder="Subscribe To Our Newsletter">
+                <input type="button" id="signUp" value="SIGNUP">
+            </form>
+        </div>
+    </section>
+
+
+    <section class="blog container">
+        <div class="heading">
+            <p>
+                Get Travel Knowledge
+            </p>
+            <h3>READ BLOG</h3>
+        </div>
+        <div class="blog-card">
+            <img src="img/mike-swigunski-kPUhacMkULc-unsplash.jpg" alt="" class="bg">
+            <div class="details">
+                <p class="name">Traveler</p>
+                <a href="#">
+                    <span class="title">Faremart Blog:</span>
+                    <span class="title-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia culpa veritatis ?</span>
+                </a>
+            </div>
+            <div class="button-nav">
+                <div class="back-button">
+                    <img src="" alt="">
+                </div>
+                <div class="front-button">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about-us container">
+        <div class="item-about">
+            <h4 class="heading">
+                Faremart <span> About us</span>
+            </h4>
+            <p class="info-about-us">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, voluptates! Officia ipsam quas reprehenderit nemo quaerat optio laborum ut amet!
+            </p>
+        </div>
+        <div class="item-about">
+            <h4 class="heading">
+                Get the Best Deals on Flights Online
+            </h4>
+            <p class="info-about-us">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, voluptates! Officia ipsam quas reprehenderit nemo quaerat optio laborum ut amet!
+            </p>
+        </div>
+        <div class="item-about">
+            <h4 class="heading">
+                Why Choose FareMart for Booking Flights?
+            </h4>
+            <p class="info-about-us">
+                <ul>
+                    <li>
+                        Lorem ipsum dolor sit amet.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Lorem ipsum dolor sit amet.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Lorem ipsum dolor sit amet.
+                    </li>
+                </ul>
+            </p>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="links-container">
+                <div class="frag ">
+                    <p class="head-ql">About FareMart</p>
+                    <ul>
+                        <li>
+                            <a href="">links</a>
+                        </li>
+                        <li>
+                            <a href="">links</a>
+                        </li>
+                        <li>
+                            <a href="">liasdas</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="frag">
+                    <p class="head-ql">Airlines</p>
+                    <ul>
+                        <li>
+                            <a href="">links</a>
+                        </li>
+                        <li>
+                            <a href="">links</a>
+                        </li>
+                        <li>
+                            <a href="">liasdas</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="frag">
+                    <p class="head-ql">Quick Links</p>
+                    <ul>
+                        <li>
+                            <a href="">links</a>
+                        </li>
+                        <li>
+                            <a href="">links</a>
+                        </li>
+                        <li>
+                            <a href="">liasdas</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="frag">
+                    <p class="head-ql">Registered addr</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quis odit blanditiis voluptas expedita.</p>
+                </div>
+            </div>
+            <div class="info">
+                <div class="sm-links">
+                    <a href="">
+                        <img src="img/icons8-price-tag-64.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/icons8-price-tag-64.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/icons8-price-tag-64.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/icons8-price-tag-64.png" alt="">
+                    </a>
+                </div>
+                <p>© 2016 - 2020 Faremart Inc. All rights reserved</p>
+                <p>201 Milwaukee Street, Suite 200 Denver, CO, 80206 United States </p>
+                <p>Washington: WASOT # 604398724, Florida: FLSOT # ST41960, California: CASOT # 2139170-40, Hawaii: HASOT # TAR-7362, Iowa: IASOT # 1582</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
